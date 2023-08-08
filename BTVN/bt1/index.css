@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 222, 173);
+}
+.Anh1{
+    max-width: 500px;
+    height: auto;
+}
+.Lop1{
+    color: blue;
+}
+#The21{
+    color: red;
+}
+#The22{
+    color: red;
+}
+#The23{
+    color: red;
+}
+#The24{
+    color: red;
+}
+h1{
+    color: rgb(191, 62, 255);
+}
+.Anh2{
+    max-width: 200px;
+    height: auto;
+}
+#The31{
+    font-style: italic;
+    color: rgb(122, 100, 139);
+}
+#The32{
+    font-style: oblique;
+    color: rgb(122, 70, 139);
+}
+#The33{
+    font-style: inherit;
+    color: rgb(122, 90, 139);
+}
+#The34{
+    font-style: initial;
+    color: rgb(122, 80, 139);
+}
+.Lop2{
+    font-style: normal;
+    color: rgb(69, 139, 0);
+}

@@ -1,0 +1,38 @@
+/* Reset Css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    line-height: 100px;
+    color: green;
+}
+
+.heading-1 {
+    color: orangered;
+}
+.infor-all {
+    margin-left: 10px;
+}
+
+#person-1 {
+    margin-left: 30px;
+}
+
+.phuc-1 {
+    margin-left: 30px;
+}
+
+#phuc-2 {
+    color: black;
+}
+
+.phuc-3 {
+    color: hotpink;
+}
