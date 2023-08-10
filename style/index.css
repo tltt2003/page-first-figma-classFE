@@ -22,6 +22,8 @@ a {
   width: 1170px;
   margin: 0px auto;
 }
+/* if(màn hình < 1170px -> width = 768px) */
+
 .header {
   display: flex;
 }
@@ -47,6 +49,7 @@ a {
   /* display: flex;
   align-items: center; */
 }
+
 .nav-li-a {
   color: #5f5b53;
   text-align: center;
@@ -56,6 +59,7 @@ a {
   font-weight: 400;
   line-height: 50px;
 }
+
 .btn-sign-up {
   width: 144px;
   height: 50px;
@@ -70,4 +74,62 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
+}
+.icon-facebook {
+  font-size: 100px;
+  color: violet;
+}
+.input-test {
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  font-size: 40px;
+  background-color: black;
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  .content {
+    width: 1050px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .content {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .content {
+    width: 700px;
+  }
+}
+/* ẩn khi nó to */
+@media screen and (min-width: 768px) {
+  .header-mobile {
+    display: none;
+  }
+}
+/* mobile */
+@media only screen and (max-width: 767px) {
+  .header {
+    display: none;
+  }
+  .content {
+    width: calc(100% - 40px);
+  }
+  .icon-nav {
+    font-size: 30px;
+  }
+  .nav {
+    display: none;
+  }
+  .header-mobile:hover .nav {
+    display: block;
+  }
+
+  .nav li {
+    color: #ddd;
+    margin-bottom: 5px;
+    padding: 0px 20px;
+    background-color: #111;
+    border-radius: 4px;
+  }
 }
