@@ -32,9 +32,9 @@ a {
   align-items: center;
 }
 /* if(màn hình < 1170px -> width = 768px) */
-img {
+/* img {
   object-fit: cover;
-}
+} */
 .header {
   display: flex;
 }
