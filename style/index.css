@@ -151,6 +151,11 @@ a {
 .hero_body_right {
   margin-left: 230px;
 }
+.hero_body_left_img {
+  width: 470px;
+  height: 685px;
+  border-radius: 20px;
+}
 .hero_body_right h2 {
   color: #171100;
   font-family: Sen;
