@@ -33,11 +33,27 @@ a {
 }
 /* if(màn hình < 1170px -> width = 768px) */
 /* img {
-  object-fit: cover;
+.hero_headerover;
 } */
-.header {
-  display: flex;
+.hero_header {
+  background-color: #e9e0c6;
+  padding-bottom: 26px;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+
+  z-index: 1;
 }
+.header {
+  margin: auto;
+  padding-top: 26px;
+  height: 50px;
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  display: flex;
+  align-items: center;
+}
+
 .color-yellow {
   color: #ffb900 !important;
 }
