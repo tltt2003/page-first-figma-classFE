@@ -589,7 +589,7 @@ a {
 }
 .content_p {
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
 }
 .content_p_1_1 {
   color: #130606;
